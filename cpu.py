@@ -42,7 +42,7 @@ def get_cpu_utilization(instance_id):
 
 max_cpu_list = []
 date_time_list = []
-x = get_cpu_utilization('i-0c00710a04ff04190')
+x = get_cpu_utilization('instance id')
 for item in x:
     for thing in item:
         max_cpu = thing['Maximum']
